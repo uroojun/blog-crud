@@ -3,11 +3,9 @@ body {
   background-color: #aca01bb6;
   color: #333;
   margin: 0;
+  padding: 20px;
 }
 
-.main {
-  min-height: 100vh;
-}
 .form-div {
   margin-top: 20px;
   padding: 30px 0;
@@ -44,17 +42,14 @@ body {
 
 h2 {
   text-align: center;
-  color: rgba(34, 26, 6, 0.856);
+  color: rgba(0, 74, 83, 0.856);
   margin-bottom: 20px;
   text-decoration: underline;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .blog-list {
   display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
+  gap: 15px;
   margin: 2px 0px;
   padding: 10px 0px;
 }
@@ -72,11 +67,8 @@ h2 {
 } */
 
 .card {
-  width: 380px;
-  min-height: 300px;
-  display: flex;
-  text-align: center;
   flex-wrap: wrap;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(250, 252, 252);
@@ -129,7 +121,7 @@ h2 {
   font-size: 15px;
   color: #000;
   margin-top: 5px;
-  text-align: center;
+  text-align: left;
   width: 400px;
 }
 
